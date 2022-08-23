@@ -1,1 +1,60 @@
-/* Write your CSS here! */
+body {
+	width: 100%;
+	max-width: 1024px;
+	margin:  0 auto;
+	background-color:rgb(154, 195, 210) ;
+	font-size: 80%;
+}
+header,
+main,
+footer {
+    background-color:rgb(141, 186, 199) ;
+    font-size: 3 cm;
+}
+
+title {
+    text-align: center;
+    
+}
+header h1{
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6, h7 {
+    margin: 1.25;
+    font-size: .85cm;
+}
+
+p {
+    font-size: .65cm;
+    padding: 0 cm;
+}
+section {
+	margin: 1.875em 0;
+}
+
+section:first-child {
+	margin-top: 0;
+}
+
+section:last-child {
+	margin-bottom: 0;
+}
+
+figure {
+    margin: 0;
+    padding:0;
+    text-align: left;
+}
+figcaption {
+    font-style:italic;
+    font-size:.4cm;
+    
+}
+footer{
+    text-align: left;
+    padding: 3cm;
+}
+footer p {
+	display: inline-block;
+}
+
